@@ -27,7 +27,7 @@ const AddBook = () => {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
-      <p>Author</p>
+      <p>Author : </p>
       <input
         type="text"
         className="w-full border-green-500 border-b-2 focus:outline-none mt-1 mb-4"

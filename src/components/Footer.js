@@ -3,7 +3,7 @@ import { FaHeart } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="font-semibold text-center mt-16">
+    <footer className="font-semibold text-center mt-16 mb-8">
       <p className="flex justify-center">
         Made with &nbsp;
         <span>
