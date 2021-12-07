@@ -3,8 +3,8 @@ import { FaHeart } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="font-semibold text-center mt-16 mb-8">
-      <p className="flex justify-center">
+    <footer className="font-semibold text-center mt-16 pb-16">
+      <p className="flex justify-center dark:text-green-50">
         Made with &nbsp;
         <span>
           <FaHeart className="text-red-500 w-6 h-6" />
@@ -19,7 +19,7 @@ export default function Footer() {
           Kingkin Fajar
         </a>
       </p>
-      <p>
+      <p className="dark:text-green-50">
         with &nbsp;
         <a
           href="http://reactjs.org"

@@ -6,7 +6,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App dark:bg-gray-900 transition-all duration-300 min-h-screen">
       <div className="md:container md:max-w-2xl container px-6 mx-auto">
         <BookContextProvider>
           <Header />

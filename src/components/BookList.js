@@ -12,7 +12,7 @@ const BookList = () => {
     </div>
   ) : (
     <div className="border-2 border-green-500 w-auto transition-all duration-500 rounded-lg px-5 py-5 my-8 text-center md:hover:bg-green-500">
-      <p>You don't have a reading book list.</p>
+      <p className="dark:text-green-50">You don't have a reading book list.</p>
     </div>
   );
 };
